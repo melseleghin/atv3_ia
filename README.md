@@ -1,14 +1,17 @@
-# Análise de Agrupamento com K-Means, Bi-Secting K-Means e Linkage
-Este repositório contém a aplicação de técnicas de agrupamento (clustering) utilizando K-Means, Bi-Secting K-Means e Linkage em duas bases de dados: Iris e _____. O objetivo é explorar e comparar diferentes métodos de clusterização, avaliando os padrões encontrados nos conjuntos de dados. 🚀
+# Análise de Agrupamento com K-Means, Bi-Secting K-Means e Linkage  
 
-✅ Técnicas utilizadas:
-Bi-Secting K-Means
-K-Means
-Linkage
-📊 Bases de dados:
+Este repositório contém a aplicação de técnicas de agrupamento (clustering) utilizando **K-Means**, **Bi-Secting K-Means** e **Linkage** em duas bases de dados: **Iris** e **_____**.  
 
-Iris
-[base escolhida]
+O objetivo é explorar e comparar diferentes métodos de clusterização, avaliando os padrões encontrados nos conjuntos de dados. 🚀  
 
-🔎 O código inclui a implementação dos algoritmos, visualizações dos agrupamentos e análise dos resultados.
+## ✅ Técnicas utilizadas:  
+- Bi-Secting K-Means  
+- K-Means  
+- Linkage  
 
+## 📊 Bases de dados:  
+- **Iris**  
+- **[base escolhida]**  
+
+## 🔎 Informações adicionais  
+O código inclui a implementação dos algoritmos, visualizações dos agrupamentos e análise dos resultados.  
