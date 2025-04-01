@@ -69,10 +69,11 @@ if __name__ == "__main__":
     # PARA BASE WINE:
     print("### BASE DE DADOS WINE ###")
     wine = load_wine()
-    bkm_wine = BisectingKMeansAnalytic(wine)
+    bkm_wine = BisectingKMeansA
+    nalytic(wine)
     bkm_wine.run_bisecting_kmeans_with_dif_knumbers()
     bkm_wine.plot_elbow_method()
-    bkm_wine.qtd_clusters_otima = int(input("Qual o número de k ótimo apontado pelo elbow method? (no nosso caso, é 4):  "))
+    bkm_wine.qtd_clusters_otima = int(input("Qual o número de k ótimo apontado pelo elbow method? (no nosso caso, é 3):  "))
     print(f"Plotando gráfico com {bkm_wine.qtd_clusters_otima} clusters...")
     bkm_wine.apply_pca()
     bkm_wine.plot_bisecting_kmeans_clustering()
