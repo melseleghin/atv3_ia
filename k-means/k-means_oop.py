@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
     kma_wine.plot_elbow_method()
 
-    kma_wine.qtd_clusters_otima = int(input("Qual o número de k ótimo apontado pelo elbow method? (no nosso caso, é 4):  "))
+    kma_wine.qtd_clusters_otima = int(input("Qual o número de k ótimo apontado pelo elbow method? (no nosso caso, é 3):  "))
     print(f"Plotando grafico com {kma_wine.qtd_clusters_otima} clusters...")
 
     kma_wine.apply_pca()
