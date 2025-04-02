@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans, KMeans
 from sklearn.datasets import load_iris, load_wine
 from sklearn.decomposition import PCA
 
